@@ -1,10 +1,21 @@
-const koa = require('koa');
-const app = new koa();
+const Koa = require('koa');
+const Router = require('koa-router');
 
-app.use(function*() {
-  this.body = 'Hello world!';
+const app = new Koa();
+
+app.use(async (ctx, next) => {
+  // Log the request to the console
+  console.log('Url:', ctx.url);
+  // Pass the request to the next middleware function
+  await next();
 });
 
-app.listen(3000, function() {
-  console.log('Server running on https://localhost:3000')
+const router = new Router();
+router.get('/*', async (ctx) => {
+  ctx.body = 'Hello World!';
 });
+app.use(router.routes());
+
+app.listen(3000);
+
+console.log('Server running on port 3000');
