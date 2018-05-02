@@ -2,6 +2,7 @@ const Koa = require('koa');
 const Router = require('koa-router');
 
 const app = new Koa();
+const router = new Router();
 
 app.use(async (ctx, next) => {
   // Log the request to the console
@@ -10,10 +11,13 @@ app.use(async (ctx, next) => {
   await next();
 });
 
-const router = new Router();
-router.get('/*', async (ctx) => {
+router.get('/', async (ctx) => {
   ctx.body = 'Hello World!';
 });
+router.get('/test', async (ctx) => {
+  this.body = 'Vous êtes sur une page de test';
+})
+
 app.use(router.routes());
 
 app.listen(3000);
