@@ -28,5 +28,8 @@ https://www.christopheducamp.com/2013/12/16/creer-un-repo-github/
 
 
 Pour le login/pwd : http://mherman.org/blog/2015/01/31/local-authentication-with-passport-and-express-4/#.Wuy5JhbRaaM
+http://expressjs.com/fr/guide/database-integration.html#mysql
+http://defeo.lu/aws-2014/tutorials/tutorial4-node
+
 
 pour le paiement : https://stripe.com/docs
