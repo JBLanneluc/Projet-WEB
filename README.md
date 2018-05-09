@@ -19,7 +19,7 @@ https://www.npmjs.com/package/koa-web-kit
 
 https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-css
 
-Puis apprendre à lier une base mysql à une serveur ExpressJS
+Puis apprendre à lier une base mysql à une serveur ExpressJS : https://www.js-tutorials.com/javascript-tutorial/node-js-user-authentication-using-mysql-express-js/
 
 
 https://doc.ubuntu-fr.org/git
