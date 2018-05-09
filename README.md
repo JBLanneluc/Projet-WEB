@@ -20,3 +20,10 @@ https://www.npmjs.com/package/koa-web-kit
 https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-css
 
 Puis apprendre à lier une base mysql à une serveur ExpressJS
+
+
+https://www.grafikart.fr/forum/topics/14207
+
+http://learnosm.org/fr/advanced/github-sharing/
+
+https://doc.ubuntu-fr.org/git
