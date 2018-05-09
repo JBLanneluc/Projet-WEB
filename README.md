@@ -25,3 +25,8 @@ Puis apprendre à lier une base mysql à une serveur ExpressJS
 https://doc.ubuntu-fr.org/git
 
 https://www.christopheducamp.com/2013/12/16/creer-un-repo-github/
+
+
+Pour le login/pwd : http://mherman.org/blog/2015/01/31/local-authentication-with-passport-and-express-4/#.Wuy5JhbRaaM
+
+pour le paiement : https://stripe.com/fr
