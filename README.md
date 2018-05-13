@@ -31,5 +31,7 @@ Pour le login/pwd : http://mherman.org/blog/2015/01/31/local-authentication-with
 http://expressjs.com/fr/guide/database-integration.html#mysql
 http://defeo.lu/aws-2014/tutorials/tutorial4-node
 
+https://www.js-tutorials.com/javascript-tutorial/node-js-user-authentication-using-mysql-express-js/
+
 
 pour le paiement : https://stripe.com/docs
